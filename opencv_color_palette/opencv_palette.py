@@ -6,7 +6,7 @@ def nothing(x):
     pass
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     # Create a black image, a window
     img = np.zeros((300, 512, 3), np.uint8)
     cv2.namedWindow('image')
